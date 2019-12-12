@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+body{
+    background: #90b4d6;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+nav >ol >li{
+    border: 1px solid red;
+    float: left;
+    margin: 20px;
+    color: blanchedalmond;
+    font: 40px;
+}
